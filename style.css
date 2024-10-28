@@ -249,6 +249,5 @@ body::after{
   /*
 .wheel > li:has(.hoverable:hover)::after {
 animation: reveal var(--trans-duration) ease forwards;
- 
 }
 */
