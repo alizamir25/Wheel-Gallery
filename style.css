@@ -164,7 +164,7 @@
     transform: rotate(var(--title-rotate-hover,0));
     opacity: var(--title-opacity,0);
  }
-.wheel > li:has(.hoverable:hover){
+.wheel>li:has(.hoverable:hover){
   z-index: 10;
   transition: z-index 0s;
   --hover-filter: sepia(0);
