@@ -134,16 +134,7 @@
   cursor: pointer; 
   z-index: 5;
 }
-/*
-.wheel > li .hoverable::after{
-  content: '';
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  background-color: transparent;
-  background-image: radial-gradient(transparent, #000 90%);
-}
-*/
+
 .wheel:has(:hover){
   --hover-filter: sepia(1);
 }
