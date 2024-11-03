@@ -1,6 +1,6 @@
 @import url(https://fonts.bunny.net/css?family=roboto:300);
 .wheel {
-  --inner-offset: clamp(2rem, 3vw, 3rem); /* Offset for after pseudo-element */
+  --inner-offset: clamp(2rem, 3vw, 3rem); 
   --title-offset: -40px;
   
   list-style: none;
