@@ -158,7 +158,6 @@
   --hover-filter: sepia(0);
   --title-opacity: 1;
   --title-trans-delay: calc(var(--trans-duration) - 150ms);
-  /*--title-offset: -40px;*/
   --title-rotate-hover: var(--title-rotate);
   --animation-after: reveal var(--trans-duration) ease forwards;
 }
