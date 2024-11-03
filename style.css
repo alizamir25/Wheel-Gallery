@@ -87,7 +87,6 @@
   --clip-7: polygon(50% 50%, 0% 50%, 0% 0%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 100%);
   --clip-8: polygon(50% 50%, 0% 50%, 0% 0%, 50% 0%, 100% 0%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 50%);
 }
-
 .wheel>li:nth-child(8){
   --title-rotate: 311deg;
   --clip-1: polygon(50% 50%, 0% 0%, 50% 0%, 50% 0%,  50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%, 50% 0%);
@@ -126,7 +125,7 @@
 }
 .wheel>li::after{
   --inset: var(--inner-offset);
-  background-size: calc(100% + var(--inset) * 2);
+  background-size: calc(100% + var(--inset)*2);
   animation: var(--animation-after);
 }
 .wheel>li .hoverable{
